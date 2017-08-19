@@ -11,7 +11,7 @@
 
 
 # The following is a testable example which can be used to print portfolio positions daily at market close.
-def initialize(context:
+def initialize(context):
 	context.aapl = sid(24)
 	context.spy = sid(8554)
 
